@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TopLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight=".2"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/RcvPONum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".05"
+                android:hint="@string/po_number"
+                android:text="@string/po_number"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+				android:transitionName="ponum"/>
+
+            <TextView
+                android:id="@+id/POVend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:hint="@string/vendor"
+                android:text="@string/vendor"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/OrdBy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:text="@string/order_by"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/VendName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:text="@string/vend_name"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/ReqBy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:text="@string/req_by"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/RcvBtn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".15"
+                android:text="@string/rcv_button" />
+
+            <LinearLayout
+                android:id="@+id/Dates"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/OrdDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_date"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/ReqDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dueby"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/pendTempRcv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/pendTempRcv"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/bh_red" />
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/itemList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".4" >
+    </ListView>
+
+</LinearLayout>

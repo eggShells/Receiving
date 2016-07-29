@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_nonpo"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_moreoverflow"
+        android:title="@string/NonPO_Title"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_preferences"
+        android:title="@string/appTitle"/>
+
+</menu>

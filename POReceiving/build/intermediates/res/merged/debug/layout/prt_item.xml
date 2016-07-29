@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="horizontal" xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/prtMinus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minus" />
+    
+	<EditText
+	    android:id="@+id/prtQty"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight=".25"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:inputType="number"
+	    tools:ignore="LabelFor" />
+
+	<Button
+	    android:id="@+id/prtPlus"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/plus" />
+	
+	<TextView
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".2"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:text="@string/prtQWith" 
+	    android:labelFor="@+id/itmQty"/>
+
+	<EditText
+	    android:id="@+id/itmQty"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight=".3"
+	    android:ems="10"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:inputType="numberDecimal"
+	    android:selectAllOnFocus="true" />
+	
+</LinearLayout>

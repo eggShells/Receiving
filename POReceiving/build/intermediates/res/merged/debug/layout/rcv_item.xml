@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/RcvItemNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:text="@string/item_number"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rcvItmReqDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:text="@string/req_date"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/linePendingRcpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linePendTempRcv"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/bh_red" />
+        
+        <TextView
+            android:id="@+id/rcvItemDescsList"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:text="@string/desc"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/lblQtyOrd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:focusable="false"
+                    android:text="@string/qty_ord"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblPackList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="20dp"
+                    android:focusable="false"
+                    android:text="@string/packlist_qty"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblRcvQty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="20dp"
+                    android:focusable="false"
+                    android:text="@string/rcv_qty"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/rcvQtyOrd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"
+                    android:focusable="false"
+                    android:text="@string/qty_ord"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/RcvItmPackListQty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="4dp"
+                    android:ems="12"
+                    android:hint="@string/packlist_qty"
+                    android:inputType="number|numberDecimal"
+                    android:maxLength="30"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/RcvItmQty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:ems="12"
+                    android:hint="@string/rcv_qty"
+                    android:inputType="number|numberDecimal"
+                    android:selectAllOnFocus="true" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/rcvItmNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="12"
+            android:hint="@string/rcv_note"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:lines="2"
+            android:maxLines="2" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/RcycLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblQtyLbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/prt_lbl_qtys"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addLblBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/add_label" />
+        
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lblQtyList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+    
+</LinearLayout>

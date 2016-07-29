@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bh_red">#7E2836</color>
+    <color name="bh_red_light">#A56972</color>
+    <color name="bh_red_dark">#581C26</color>
+    <color name="bh_white">#FFFFFF</color>
+    <color name="bh_grey">#F5F5F5</color>
+    <color name="bh_black">#000000</color>
+</resources>

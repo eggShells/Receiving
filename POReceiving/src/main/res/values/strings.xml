@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test POReceiving</string>
+    <string name="action_settings">Settings</string>
+    <string name="po_number">PO Number</string>
+    <string name="vendor">Vendor</string>
+    <string name="date_from">Date From</string>
+    <string name="date_thru">Date Through</string>
+    <string name="order_date">Ordered On:</string>
+    <string name="order_by">Ordered By:</string>
+    <string name="item_number">Item Number</string>
+    <string name="bal_due">Balance Due</string>
+    <string name="rcv_button">Receive</string>
+    <string name="req_date">Receipt Due By Date:</string>
+    <string name="req_by">Requested By:</string>
+    <string name="sort_by">Sort By:</string>
+
+    <string-array name="sortbyoptions">
+        <item>PO Number</item>
+        <item>Requested Date</item>
+    </string-array>
+
+    <string name="vend_name">Vendor Name</string>
+    <string name="dueby">Due By:</string>
+    <string name="timeoutToast">Unable to connect to server, try again in a few minutes, or please contact IT Help Desk.</string>
+    <string name="postToast">Open Systems is currently in POST mode.  Contact IT if you need immediate access.</string>
+    <string name="appTitle">Instant Receiving</string>
+    <string name="loadingPOs">Loading POs…</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="rcptDueBy">Receipt Due By Date</string>
+    <string name="pref_OnlyBalDue_true">Only show PO lines with a balance due.</string>
+    <string name="pref_OnlyBalDue_false">Show all PO lines.</string>
+    <string name="pref_OnlyBalDue_title">Only Balance Due Lines</string>
+    <string name="pref_timefilter">Time Period for PO Lines</string>
+    <string name="pref_timefilter_past_title">Past Days</string>
+    <string name="pref_timefilter_past_sum">Number of days in the past an open PO Line will display.</string>
+    <string name="pref_timefilter_future_title">Future Days</string>
+    <string name="pref_timefilter_future_sum">Number of days in the future an open PO line will display.</string>
+    <string name="pref_FutureDays">pref_futuredays</string>
+    <string name="pref_PastDays">pref_PastDays</string>
+    <string name="pref_OnlyBalDue">pref_OnlyBalDue</string>
+    <string name="title_activity_rcv">RcvActivity</string>
+    <string name="qty_ord">Order Qty</string>
+    <string name="rcv_qty">Receive Qty</string>
+    <string name="packlist_qty">Pack List Qty</string>
+    <string name="rcv_complete">Receive Order</string>
+    <string name="wait_for">Waiting for PO to finish loading…</string>
+    <string name="rcv_note">Note (Optional)</string>
+    <string name="rcv_po">Receiving PO…</string>
+    <string name="desc">Description</string>
+    <string name="success_rcv">PO was successfully received.</string>
+    <string name="failed_rcv">PO receipt failed! Please contact the ITHelpDesk.</string>
+    <string name="pendTempRcv">Pending receiving for this order.</string>
+    <string name="linePendTempRcv">Receipt Pending:</string>
+    <string name="nothingRcvd">Nothing received.</string>
+    <string name="rcvActivityTitle">Log Receipts</string>
+    <string name="NonPO_Source">Source:</string>
+    <string name="NonPO_ExpDate">Expected Date:</string>
+    <string name="NonPO_Qty">Quantity:</string>
+    <string name="NonPO_Title">Non PO Expected Receipts</string>
+    <string name="NonPO_progress">Getting Non PO Receipts…</string>
+    <string name="NonPO_rcving">Receiving Non PO…</string>
+    <string name="NonPO_rcvfailed">Unable to receive Non PO.</string>
+    <string name="NonPO_none">No Non POs at this time.</string>
+    <string name="Rcv_Confirm">Receive this PO?</string>
+    <string name="Rcv_Confirm_Title">Confirm Receipts</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="rcv_labelCount">Print Label Qty</string>
+    <string name="prtQWith">with a qty of:</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="prt_lbl_qtys">Label Quantities</string>
+    <string name="add_label">Add Label</string>
+
+</resources>

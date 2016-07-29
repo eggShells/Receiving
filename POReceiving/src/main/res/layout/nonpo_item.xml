@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/NonPOSource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NonPO_Source"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/NonPOExp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NonPO_ExpDate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/NonPOQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NonPO_Qty"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/NonPODesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".5"
+        android:ellipsize="none"
+        android:maxLines="15"
+        android:text="@string/desc"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/NonPORemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/rcv_button" />
+
+</LinearLayout>

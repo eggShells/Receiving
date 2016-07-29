@@ -1,0 +1,106 @@
+[
+    {
+        "outputFile": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\AndroidUtils\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endColumn": 74,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\AndroidUtils\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\22.2.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 562,
+                        "endColumn": 74,
+                        "endOffset": 632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 65,
+                    "endOffset": 463
+                },
+                "from": {
+                    "file": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\AndroidUtils\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\22.2.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 65,
+                        "endOffset": 930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 468,
+                    "endColumn": 49,
+                    "endOffset": 513
+                },
+                "from": {
+                    "file": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\AndroidUtils\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 518,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 804
+                },
+                "from": {
+                    "file": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\AndroidUtils\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 809,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 964
+                },
+                "from": {
+                    "file": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\AndroidUtils\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 551
+                    }
+                }
+            }
+        ]
+    }
+]

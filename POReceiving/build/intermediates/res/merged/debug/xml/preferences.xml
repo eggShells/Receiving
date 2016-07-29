@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_OnlyBalDue"
+        android:summary="@string/pref_OnlyBalDue_true"
+        android:title="@string/pref_OnlyBalDue_title" />
+    
+    <PreferenceCategory
+        android:key="pref_timefilter"
+        android:title="@string/pref_timefilter" >
+        <EditTextPreference
+            android:name="Past Days"
+            android:defaultValue="30"
+            android:singleLine="true"
+            android:maxLength="3"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="@string/pref_PastDays"
+            android:summary="@string/pref_timefilter_past_sum"
+            android:title="@string/pref_timefilter_past_title" />
+        <EditTextPreference
+            android:name="Future Days"
+            android:defaultValue="15"
+            android:singleLine="true"
+            android:maxLength="3"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="@string/pref_FutureDays"
+            android:summary="@string/pref_timefilter_future_sum"
+            android:title="@string/pref_timefilter_future_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

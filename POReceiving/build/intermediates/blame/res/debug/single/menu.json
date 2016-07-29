@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\POReceiving\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\POReceiving\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\POReceiving\\build\\intermediates\\res\\merged\\debug\\menu\\rcv.xml",
+        "source": "C:\\Users\\eslaugh\\StudioProjects\\POReceiving\\POReceiving\\src\\main\\res\\menu\\rcv.xml"
+    }
+]
